@@ -1,0 +1,23 @@
+resources:
+
+  # KUBE-UTILS
+  - url: "https://rancher-dsop-dependencies.nyc3.digitaloceanspaces.com/weaveworks/weave-kube/kube-utils"
+    filename: "kube-utils"
+    validation:
+      type: "sha256"
+      value: "e257d5432df64dde46094e1199a0fd752e637b3dea83531f807ea3dac2450ee4"
+
+  # LAUNCH.SH
+  - url: "https://rancher-dsop-dependencies.nyc3.digitaloceanspaces.com/weaveworks/weave-kube/launch.sh"
+    filename: "launch.sh"
+    validation:
+      type: "sha256"
+      value: "a384499e01d8ce1c1d7d65f8b3e95100e5d1b06a04745fbff2989667e5a6be91"
+
+   # WEAVEUTIL
+  - url: "https://rancher-dsop-dependencies.nyc3.digitaloceanspaces.com/weaveworks/weave-kube/weaveutil"
+    filename: "weaveutil"
+    validation:
+      type: "sha256"
+      value: "616c8cbc42236bdef9c53d0959c74feab269997512f7024d86c1ac97b6ecc088"
+
